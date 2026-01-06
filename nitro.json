@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["filebase64native"],
+  "ios": {
+    "iosModuleName": "FileBase64Native"
+  },
+  "android": {
+    "androidNamespace": ["filebase64native"],
+    "androidCxxLibName": "filebase64native"
+  },
+  "autolinking": {
+    "FileBase64Native": {
+      "swift": "FileBase64Native",
+      "kotlin": "FileBase64Native"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
